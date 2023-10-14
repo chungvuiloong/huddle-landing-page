@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                    extend: {
+                        fontFamily: {
+                          Poppins: ['Poppins', 'sans-serif'],
+                          'Open-sans': ['Open Sans', 'sans-serif']
+                        },
+                        colors: {
+                            Violet: 'hsl(257, 40%, 49%)',
+                            'Soft-Magenta': 'hsl(300, 69%, 71%)'
+                        }
+                    }
+            }
+        }
+    </script>
+</head>
+    <body class=' bg-Violet bg-no-repeat bg-cover' style='background-image: url("./images/bg-desktop.svg")'>
+        <div class='min-h-screen lg:pt-16 pt-12 px-10'>
+            <div class='h-full container mx-auto flex flex-col justify-center'>
+                <header class='lg:mb-20 mb-16'>
+                    <img src='./images/logo.svg' alt='Logo' class='lg:h-auto h-[40px]' />
+                </header>
+            <div>
+            <div class='flex lg:flex-row flex-col gap-x-12 gap-y-12'>
+                <div class='basis-1/2'>
+                    <img src='./images/illustration-mockups.svg' alt='' />
+                </div>
+                <div class='basis-1/2 lg:text-left text-center'>                      
+                    <h1 class='lg:mb-10 mb-5 font-Poppins text-Soft-Magenta font-bold text-white lg:text-5xl text-2xl lg:text-left text-center'>
+                        Build The Community Your Fans Will Love
+                    </h1>
+                    <div class='flex flex-col gap-y-8'>                    
+                        <p class='lg:text-xl text-sm text-white opacity-70'> 
+                                Huddle re-imagines the way we build communities. 
+                                You have a voice, but so does your audience. 
+                                Create connections with your users as you engage in genuine discussion. 
+                        </p>
+                        <button class='lg:mx-0 mx-auto w-fit bg-white hover:bg-Soft-Magenta text-Violet px-10 py-3 lg:text-xl text-sm text-center rounded-full'>Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='lg:mt-2 mt-10 flex flex-row lg:justify-end justify-center'>
+            <div class='flex gap-5'>
+                <iconify-icon icon="ri:facebook-fill" width="25" height="25" class='border-2 text-white hover:text-Soft-Magenta border-white hover:border-Soft-Magenta p-2.5 rounded-full opacity-70'></iconify-icon>
+                <iconify-icon icon="simple-icons:x" width="20" height="20" class='border-2  text-white hover:text-Soft-Magenta border-white hover:border-Soft-Magenta p-3 rounded-full opacity-70'></iconify-icon>
+                <iconify-icon icon="simple-icons:instagram" width="20" height="20" class='border-2  text-white hover:text-Soft-Magenta border-white hover:border-Soft-Magenta p-3 rounded-full opacity-70'></iconify-icon>
+            </div>
+        </div>
+    </body>
+</html>
