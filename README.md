@@ -47,7 +47,7 @@ For the states:
 ### Built with
 
 - Semantic HTML5 markup
-- Tailwind
+- TailwindCSS
 - Flexbox
 - Mobile-first workflow
 
