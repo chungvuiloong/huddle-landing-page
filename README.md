@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jeresulovuo/huddle-landing-page)
+- Solution URL: [Github](https://github.com/chungvuiloong/huddle-landing-page)
 - Live Site URL: [Vercel](https://mrjays-huddle-landing-page.vercel.app/)
 
 ## My process
